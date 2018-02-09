@@ -1,0 +1,7 @@
+	    var message = "";
+	    if (this.request.body.txtID == "") {
+	       message += "please keyin your name. <br>";
+	    }
+	    if (this.request.body.txtPassword == "") {
+	       message += "please keyin password. <br>";
+	    }
